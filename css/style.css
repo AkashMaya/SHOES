@@ -1,0 +1,275 @@
+.bar{
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.logo{
+    width: 10%;
+    height: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 80px;
+}
+.logos{
+    height: 70px;
+    width: 100px;
+}
+.logos:hover{
+    background-color:lightslategray;
+}
+.logos img{
+    width: 100%;
+    margin-top: -20px;
+    
+}
+.list{
+    color: white;
+}
+.list input{
+    height: 10px;
+}
+.baritem{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+}
+.baritem div{
+    gap: 8px;
+}
+.navbar-3-icon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 80px;
+}
+#location{
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+#sms{
+    color: white;
+}
+.list2{
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#login{
+    color: white;
+}
+.list3{
+    width: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.list3 a{
+    color: white;
+}
+#heart{
+    color: white;
+}
+#bag{
+    color: white;
+}
+.big-image{
+    width: 100%;
+}
+.big-image img{
+    width:100%;
+  }
+.sub-head1{
+   width: 40%;
+   margin-top: 25px;
+}
+
+.sub-head1 a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+}
+.head1-sub {
+    display: flex;
+    gap: 15%;
+}
+.three-image-section{
+    display: flex;
+    justify-content: center;
+}
+.three-image{
+  display: flex;
+    width: 85%;
+    gap: 2%;   
+}
+.three-image img{
+    width: 100%;
+}
+.thimage{
+    width: 32%;
+    position: relative;
+}
+.thbutton{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    transform: translate(-50% -50%);
+}
+.thbutton button{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.footer{
+    margin-top: 1%;
+    background-color: #1b1a1a;
+    color: #ffffff;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-footer{
+    width: 90%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.offer-space{
+    width: 100%;
+    background-color: yellow;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.offer-text h1{
+    padding-top: 5%;
+}
+.offer-button button{
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 30px;
+}
+.offer-button {
+    padding-top: 4%;
+    padding-left: 3%    ;
+}
+.footer1{
+    width: 20%;
+}
+.footer1{
+    text-align: left;
+}
+.footer1 p{
+    padding-left: 42px;
+}
+.footer1 ul{
+    list-style-type: none;
+}
+.footer1 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer2{
+    width: 20%;
+}
+.footer2{
+    text-align: left;
+}
+.footer2 p{
+    padding-left: 42px;
+}
+.footer2 ul{
+    list-style-type: none;
+}
+.footer2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer3{
+    width: 20%;
+}
+.footer4{
+    width: 29%;
+}
+.footer-para-icon{
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.footer-para-icon img{
+    width: 40px;
+}
+.footer-input{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.footer-input input{
+    border: 0;
+    border-bottom:1px solid #ffffff ;
+    background-color: #1b1a1a;
+    height: 40px;
+    width: 330px;
+}
+.footer-input button{
+    width: 35px;
+    border: 0;
+    background-color:#1b1a1a;
+    color: #ffffff;
+}
+.footer-input p{
+    font-size: smaller;
+}
+
+.login-index{
+    background-image: url(../image/view-skateboard-with-retro-memorabilia.jpg);
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    
+
+}
+.login-username input{
+    text-align: center;
+    background-color: black;
+    height: 20px;
+    width: 30%;
+    color: white;
+}
+.login-keyword input{
+    margin-top: 1%;
+    text-align: center;
+    background-color: black;
+    width: 30%;
+    height: 10%;
+    color: white;
+
+}
